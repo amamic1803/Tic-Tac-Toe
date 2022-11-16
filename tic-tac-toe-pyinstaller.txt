@@ -1,2 +1,0 @@
-Generate executable:
-pyinstaller "v7.py" --upx-dir "__upx_dir__" --noconsole --icon "tic-tac-toe.ico" --add-data "tic-tac-toe.ico;." --add-data "o-image.png;." --add-data "o-image-small.png;." --add-data "pve-moves.txt;." --onefile --name "TIC-TAC-TOE-v7" --clean --key "_key_"
