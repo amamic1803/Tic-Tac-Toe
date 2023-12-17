@@ -1,9 +1,7 @@
 # Tic-Tac-Toe
 Tic-Tac-Toe with PvP and PvE modes
 
-
-![screenshot](https://user-images.githubusercontent.com/40371578/178156684-3e35d474-c766-4320-8f9f-da8d8d208f31.png)
-
+![screenshot](https://github.com/amamic1803/Tic-Tac-Toe/assets/40371578/9b8773d9-5be8-4bc3-bf77-ccb832d4a124)
 
 ## Downloading
 Prebuilt program is available under Releases
