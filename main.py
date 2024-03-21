@@ -28,6 +28,7 @@ MAG = {0: {0: 2,
            1: 3,
            2: 8}}
 
+
 class App:
 	def __init__(self):
 		self.started = False
@@ -105,6 +106,8 @@ class App:
 		self.status_text = tk.Label(self.root, font=("Helvetica", 20, "bold", "italic"),
 		                            background="#ffffff", foreground="red")
 		self.status_text.place(x=220, y=60, width=150, height=100)
+
+		self.start(skip_confirmation=True)
 
 		self.root.mainloop()
 
@@ -229,9 +232,5 @@ class App:
 				self.status_text.configure(text="DRAW")
 
 
-def main():
-	App()
-
-
 if __name__ == '__main__':
-	main()
+	App()

@@ -67,7 +67,7 @@ def build(name, console, onefile, uac_admin, icon, files, folders):
 
 def main():
 	name = "Tic-Tac-Toe"
-	version = "8.0.1"
+	version = "8.0.2"
 
 	console = False
 	onefile = True
